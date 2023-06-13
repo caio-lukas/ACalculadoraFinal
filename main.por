@@ -2,8 +2,17 @@ programa{
 
 	funcao inicio(){
 	
-       
-	   
+		real a, b
+		
+		leiaN(a)
+		leiaN(b)
+		
+	}
+	
+	funcao leiaN (&x){
+		
+		leia(&x)
+		
 	}
 
     
@@ -23,6 +32,17 @@ programa{
 			
 			caso 2: y = a - b 
 			escreva("O resultado da subtração é: ", y)
+			pare
+			
+			caso 3: y = a * b
+			escreva("O resultado da multiplicação é: ", y)
+			pare
+			
+			caso 4: y = a / b
+			escreva("O resultado da divisão é ", y)
+			pare
+			
+			caso contrario: "Benerson"
 			pare
 			
 		}
