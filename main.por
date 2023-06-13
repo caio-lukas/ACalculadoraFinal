@@ -1,22 +1,14 @@
 programa{
 
 	funcao inicio(){
-
-       real a, b
+	
        
-       leiaN(a)
-       leiaN(b)
 	   
-	}   
+	}
 
-
-	funcao leiaN (real &x){
-
-       leia(x)
-	   
-    }
     
-    funcao Operacoes (real a, real b){ 
+    funcao Operacoes (real a, real b){
+	
 		inteiro x
 		real y 
 		
@@ -34,5 +26,5 @@ programa{
 			pare
 			
 		}
-	
+	}
 }
